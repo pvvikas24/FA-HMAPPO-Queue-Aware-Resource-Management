@@ -5,7 +5,7 @@ from pathlib import Path
 @dataclass
 class EnvConfig:
     n_devices: int = 12
-    n_uavs: int = 3
+    n_uavs: int = 5
     area_size_m: float = 1000.0
     episode_length: int = 120
     slot_time_s: float = 1.0
